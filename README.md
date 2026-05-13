@@ -55,14 +55,23 @@ Socket programming finds applications in various domains, including web developm
 
 ##socket functions 
 socket(): Creates a new socket descriptor, specifying the address family, type (e.g., SOCK_STREAM, SOCK_DGRAM), and protocol.
+
 bind(): Associates a socket with a specific local IP address and port number.
+
 listen(): Used on the server side to wait for incoming connections.
+
 accept(): Used on the server side to accept an incoming client connection and create a new socket for that communication.
+
 connect(): Used on the client side to establish a connection to a remote server.
+
 send() / recv(): Functions for sending and receiving data over a connected socket.
+
 sendto() / recvfrom(): Functions used for sending and receiving data on connectionless sockets.
+
 close(): Terminates a socket connection.
+
 setsockopt(): Sets options for a specific socket.
+
 getsockname(): Retrieves the address bound to a socket.
 ## Result:
 Thus the study of Socket Programming Completed Successfully
