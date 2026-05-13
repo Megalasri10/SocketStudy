@@ -53,7 +53,8 @@ Socket programming finds applications in various domains, including web developm
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
-##socket functions 
+##socket functions
+
 socket(): Creates a new socket descriptor, specifying the address family, type (e.g., SOCK_STREAM, SOCK_DGRAM), and protocol.
 
 bind(): Associates a socket with a specific local IP address and port number.
